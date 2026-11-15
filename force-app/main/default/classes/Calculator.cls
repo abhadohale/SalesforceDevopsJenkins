@@ -1,12 +1,13 @@
-/********************
- Name: Calculator
- Description: This class is used to perform basic arithmetic operations.
- Date: 2024-06-10
- Developer: Abha
- ********************/
+/*****************************************************
+ version     date    author     comments
+ =====================================================
+    1.0         2024-06-10  Abha     Implemented add method
+ *****************************************************/
 public with sharing class Calculator {
     public Calculator() {
 
     }
-
+    public Integer add(Integer a, Integer b) {
+        return a + b;
+    }
 }
